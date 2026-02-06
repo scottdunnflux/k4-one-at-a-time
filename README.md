@@ -2,7 +2,7 @@
 
 ## What it does
 
-K4OneAtATime prevents users from being logged into multiple K4 (Vjoon K4) publications at the same time in InCopy or InDesign.
+K4OneAtATime prevents users from being logged into multiple K4 (vjoon K4) publications at the same time in InCopy or InDesign.
 
 The script runs automatically when the application starts and polls in the background. When it detects more than one active K4 publication login, it displays a dialog listing all connected publications and asks the user to choose one. It then logs out of the rest.
 
