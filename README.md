@@ -10,20 +10,26 @@ After prompting once, the script will not prompt again during the same session u
 
 ## Installation
 
-Replace `{App}` with either `InCopy` or `InDesign` depending on which application you use.
+Choose steps for either `InCopy` or `InDesign` depending on which application you use.
 
 ### Method 1 — Terminal
 
 1. Open **Terminal**
 2. Create the startup scripts folder (it may not exist by default) and download the script:
-
+   *InCopy 2024*
    ```bash
-   mkdir -p "$HOME/Library/Preferences/Adobe {App}/Version 19.0/en_US/Scripts/startup scripts" && curl -L https://raw.githubusercontent.com/scottdunnflux/k4-one-at-a-time/main/K4OneAtATime.jsx -o "$HOME/Library/Preferences/Adobe {App}/Version 19.0/en_US/Scripts/startup scripts/K4OneAtATime.jsx"
+   mkdir -p "$HOME/Library/Preferences/Adobe InCopy/Version 19.0/en_US/Scripts/startup scripts" && curl -L https://raw.githubusercontent.com/scottdunnflux/k4-one-at-a-time/main/K4OneAtATime.jsx -o "$HOME/Library/Preferences/Adobe InCopy/Version 19.0/en_US/Scripts/startup scripts/K4OneAtATime.jsx"
+   ```
+   *InDesign 2024*
+   ```bash
+   mkdir -p "$HOME/Library/Preferences/Adobe InDesign/Version 19.0/en_US/Scripts/startup scripts" && curl -L https://raw.githubusercontent.com/scottdunnflux/k4-one-at-a-time/main/K4OneAtATime.jsx -o "$HOME/Library/Preferences/Adobe InDesign/Version 19.0/en_US/Scripts/startup scripts/K4OneAtATime.jsx"
    ```
 
 3. Start (or restart) the application.
 
 ### Method 2 — Finder
+
+Replace {App} with either InCopy or InDesign depending on which application you use.
 
 1. Quit InCopy/InDesign if it is running.
 2. In Finder, choose **Go > Go to Folder** (Shift-Command-G) and paste:
