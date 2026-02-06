@@ -16,8 +16,7 @@ Choose steps for either `InCopy` or `InDesign` depending on which application yo
 
 1. Open **Terminal**
 2. Create the startup scripts folder (it may not exist by default) and download the script:
-   ```
-   ```
+
    *InCopy 2024*
    ```bash
    mkdir -p "$HOME/Library/Preferences/Adobe InCopy/Version 19.0/en_US/Scripts/startup scripts" && curl -L https://raw.githubusercontent.com/scottdunnflux/k4-one-at-a-time/main/K4OneAtATime.jsx -o "$HOME/Library/Preferences/Adobe InCopy/Version 19.0/en_US/Scripts/startup scripts/K4OneAtATime.jsx"
