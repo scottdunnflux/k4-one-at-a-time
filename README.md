@@ -40,7 +40,7 @@ Replace `{App}` with either `InCopy` or `InDesign` depending on which applicatio
 
    No capitalization, two words. If the folder already exists, skip this step.
 
-4. Download [K4OneAtATime.jsx](https://raw.githubusercontent.com/scottdunnflux/k4-one-at-a-time/main/K4OneAtATime.jsx).
+4. Right-click [K4OneAtATime.jsx](https://raw.githubusercontent.com/scottdunnflux/k4-one-at-a-time/main/K4OneAtATime.jsx) and choose **Save Link As** (or **Download Linked File** in Safari) to download it. Clicking the link directly will display the script as text instead of downloading it.
 5. Move `K4OneAtATime.jsx` into the **startup scripts** folder.
 6. Start InCopy/InDesign.
 
